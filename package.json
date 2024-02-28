@@ -1,0 +1,26 @@
+{
+    "name": "nftgen",
+    "version": "4.2.2",
+    "description": "Generate png, jpg, jpeg, gif , ect.. into NFTs",
+    "main": "generate.mjs",
+    "type": "module",
+    "scripts": {
+        "start": "node --experimental-modules generate.mjs",
+        "collection-info": "node --experimental-modules ./run-collection-info.mjs",
+        "help": "node --experimental-modules ./run-help.mjs"
+    },
+    "dependencies": {
+        "@thirdweb-dev/storage": "^1.2.2",
+        "canvas": "^2.11.2",
+        "chalk": "^5.3.0",
+        "cli-spinners": "^2.8.0",
+        "fs": "^0.0.1-security",
+        "gifencoder": "^2.0.0",
+        "inquirer": "^7.3.3",
+        "ora": "^8.0.1",
+        "p-limit": "^4.0.0",
+        "sharp": "^0.30.5"
+    },
+    "author": "Bankkroll.eth",
+    "license": "APACHE"
+}
